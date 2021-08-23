@@ -1,0 +1,122 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+
+}
+
+/* style for header image */
+
+header >img{
+
+    width: 100%;
+    height: 100px;
+}
+
+/* add a background color to the top navigation */
+
+nav{
+    background-color: rgb(18, 129, 134);
+    text-align: center;
+}
+nav >a{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* change the color on hour */
+
+nav >a:hover{
+    color: rgb(100, 237, 168);
+}
+nav>a:visited{
+    color: crimson;
+}
+
+/* profile image */
+.headshot{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+.mypic{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+/* style for page contents */
+.pagecontent{
+    margin: auto;
+    width: 70%;
+    font-size: 1rem;
+    border: 3px solid black;
+    margin-top: 5%;
+}
+
+.pagecontent>article>p{
+    padding: 2px;
+    font-size: 2em;
+    /* margin: 5%; */
+    color:brown;
+    border: 5px solid black;
+    padding-top: 10px ;
+    margin-top: 20px;
+}
+
+.contact>label{
+    /* border: 3px solid black; */
+    padding: 5px;
+    margin: 5px;
+}
+
+.about {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+  }
+
+  
+.contact {
+    border: 1px solid rgb(109, 103, 103);
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+  
+    font-size: 1em;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+footer {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 1em;
+  }
+  
